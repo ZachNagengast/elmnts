@@ -1,0 +1,12 @@
+{
+  "name": "Elmnts",
+  "description": "Ambient sounds for working and studying",
+  "manifest_version": 2,
+  "version": "1.0",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "elmnts-16.png", "128": "elmnts-128.png" }
+}
