@@ -8,5 +8,6 @@
       "scripts": ["background.js"]
     }
   },
+  "permissions" : ["webview"],
   "icons": { "16": "elmnts-16.png", "128": "elmnts-128.png" }
 }

@@ -84,24 +84,11 @@ function updateContentStyle() {
   var width = window.outerWidth;
   var height = window.outerHeight;
 
-  var titlebar = document.getElementById("top-titlebar");
-  if (titlebar) {
-    height -= titlebar.offsetHeight;
-    top += titlebar.offsetHeight;
-  }
-  titlebar = document.getElementById("bottom-titlebar");
-  if (titlebar) {
-    height -= titlebar.offsetHeight;
-  }
-  titlebar = document.getElementById("left-titlebar");
-  if (titlebar) {
-    width -= titlebar.offsetWidth;
-    left += titlebar.offsetWidth;
-  }
-  titlebar = document.getElementById("right-titlebar");
-  if (titlebar) {
-    width -= titlebar.offsetWidth;
-  }
+  // var titlebar = document.getElementById("top-titlebar");
+  // if (titlebar) {
+  //   height -= titlebar.offsetHeight;
+  //   top += titlebar.offsetHeight;
+  // }
 
   var contentStyle = "position: absolute; ";
   contentStyle += "left: " + left + "px; ";
